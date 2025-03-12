@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelance Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-switcher">🌙</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Welcome to My Personal Website</h1>
+        <p>Designing and Developing Stunning Digital Experiences</p>
+        <a href="#portfolio" class="cta-button">Explore My Projects</a>
+      </div>
+      <div class="hero-image">
+        <img src="./webassests/KING1.png" alt="Yogeswaran Rajasegaran" height="200">
+        <h2>Welcome to My Personal Website</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>I am a student from YPC International College (Liverpool John Moores University) and I am looking for an opportunity to apply my skills I have learned in website development and system design to a real-world project. I will be developing the website /system that solves a problem for a company for my final year project. This will gain me understand how the technology is applied in business setting and will provide me the experience that goes beyond what I have learned in class.
+
+        I hope to create a better solution that benefits both the business and my academic goals. I hope it create the chance for me to grow as a developer and provide a better future career where I am solving the real-world problems using the technology. I believe that my background from my resume/cv will makes me the perfect candidate for this job. I am looking for an opportunity to use my skills in a new setting. I believe that I would be a good asset to your team and I am eager to learn new things.</p>
+      <div class="skills">
+        <span>Web Design</span>
+        <span>Graphical Design</span>
+       <!--- <span>UI/UX</span>
+        <span>Digital Marketing</span> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item" data-category="web">
+       
+        <img src="./webassests/project1webpic1.png" alt="Web Design Project">
+        <a href="web_design.html">
+        <div class="overlay">
+          <h3>Web Design Project</h3>
+          <p>Modern UI/UX design for a tech startup.</p>
+        </div>
+        </a>
+      </div>
+      <div class="portfolio-item" data-category="graphic">
+       
+        <img src="./webassests/java_cafe.png" alt="Graphic Design Project">
+        <a href="graphic_design.html">
+        <div class="overlay">
+          <h3>Graphic Design Project</h3>
+          <p>Creative branding for a fashion brand.</p>
+        </div>
+      </a>
+      </div>
+     <!---<div class="portfolio-item" data-category="marketing">
+        <img src="https://via.placeholder.com/400" alt="Marketing Project">
+        <div class="overlay">
+          <h3>Marketing Project</h3>
+          <p>Social media campaign for a restaurant.</p>
+        </div>
+      </div>
+    </div> -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script3.js"></script>
+</body>
+</html>
