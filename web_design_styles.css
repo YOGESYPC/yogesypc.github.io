@@ -1,0 +1,152 @@
+/* Fix Background & Text Visibility */
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    padding: 60px 20px;
+    background: #4444f8;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Project Overview */
+.project-overview {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-overview h2 {
+    font-size: 22px;
+    color: #222;
+}
+
+.project-overview p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Project Section */
+.project-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Project Styling */
+.project {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.project h2 {
+    font-size: 24px;
+    color: #222;
+}
+
+.project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.project p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+}
+
+
+/*style for second project and third project */
+
+/* Project Container Styling */
+.project-container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.project-container h2 {
+    font-size: 26px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Project Styling */
+.project {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.project h2 {
+    font-size: 22px;
+    color: #222;
+}
+
+.project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.project p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+}
+
+
+/* Back Button */
+.back-button {
+    text-align: center;
+    margin: 20px;
+}
+
+.back-button a {
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #4444f8;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.back-button a:hover {
+    background: #5454fa;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+

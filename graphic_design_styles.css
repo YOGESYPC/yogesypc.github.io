@@ -1,0 +1,80 @@
+/* Fix Background & Text Visibility */
+body {
+    background: #f4f4f4; /* Light background for better readability */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    padding: 60px 20px;
+    background: #4444f8;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Project Section */
+.project-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white; /* Ensuring text is readable */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Project Styling */
+.project {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.project h2 {
+    font-size: 24px;
+    color: #222;
+}
+
+.project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.project p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Back Button */
+.back-button {
+    text-align: center;
+    margin: 20px;
+}
+
+.back-button a {
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #4444f8;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.back-button a:hover {
+    background: #5454fa;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
