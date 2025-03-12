@@ -3,7 +3,7 @@ name: Generate Sitemap
 on:
   push:
     branches:
-      - main  # Trigger the workflow on pushes to the main branch
+      - main
 
 jobs:
   build:
@@ -11,21 +11,20 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # Ensure full history for accurate lastmod tags
 
       - name: Generate sitemap
         uses: cicirello/generate-sitemap@v3
         with:
-          path-to-root: '.'  # Root directory of your website
-          url-base: 'https://yogesypc.github.io/'  # Replace with your site's URL
+          path-to-root: '.'
+          url-base: 'https://yogesypc.github.io/'
 
       - name: Commit and push sitemap
         run: |
           git config --global user.name 'YOGESYPC'
           git config --global user.email 'yogeswaran.r@ypccollege.edu.my'
           git add sitemap.xml
-          git commit -m 'Add generated sitemap'
+          git commit -m 'Update sitemap'
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
