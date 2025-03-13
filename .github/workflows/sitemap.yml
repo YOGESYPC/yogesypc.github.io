@@ -20,7 +20,7 @@ jobs:
 
       - name: Commit and push sitemap
         run: |
-          git config --global user.name 'Yogesypc'
+          git config --global user.name 'YOGESYPC'
           git config --global user.email 'yogeswaran.r@ypccollege.edu.my'
           git add sitemap.xml
           git commit -m 'Update sitemap'
