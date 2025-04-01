@@ -93,6 +93,13 @@ body {
     margin-bottom: 10px;
 }
 
+.project-container h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #222;
+    margin-bottom: 10px;
+}
+
 /* Project Styling */
 .project {
     margin-bottom: 40px;
