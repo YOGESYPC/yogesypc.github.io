@@ -239,8 +239,8 @@ html, body {
       padding: 10px;
       border: none;
       border-radius: 5px;
-      background: rgba(10, 10, 10);
-      color: #ffffff;
+      background: rgba(247, 247, 247);
+      color: #000000;
     }
     
     .contact button {
